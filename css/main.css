@@ -29,3 +29,65 @@
 	6.2 - medium display
 	6.3 - large display
 --------------------------------------------------------------*/
+/*--1.0 typography--*/
+/*--1.1 headings--*/
+h1, h2{
+	font-family: Cherolina;
+}
+/*-- 1.2 body copy--*/
+#bg-lite-blue p{
+	width: 106%;
+}
+
+/*-- 2.0 nav menus--*/
+ nav ul li, #contact ul li{
+	display: inline-block;
+}
+nav ul li, #bg-lite-blue, #bg-lite-orange, #bg-peach, #bg-orange, #bg-tan, #contact ul li{
+	padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+}
+/*-- 3.0 CONTENT--*/
+span{
+	display: none;
+}
+/*--4.0 media--*/
+header img{
+	height: 100px;
+	width: 100px;
+}
+#coffee img{
+	height: 141px;
+}
+/*-- 5.0 utility --*/
+/*--5.1 background colors--*/
+#bg-lite-blue{
+	background-color: #A0B5C6;
+}
+#bg-lite-orange{
+	background-color: #F7AC8D;
+}
+#bg-peach{
+	background-color: #FEAA9C;
+}
+#bg-tan{
+	background-color: #FFF3DD;
+}
+#bg-orange{
+	background-color: #DA9A5A;
+}
+/*-- 5.2 text colors--*/
+nav ul li a, #contact ul li a{
+	color: #000000;
+}
+/*-- 5.3 text sizes--*/
+h1{
+	font-size: 56px;
+	padding-top: 10px;
+}
+/*--5.4 alignments--*/
+#bg-lite-blue{
+	text-align: center;
+}

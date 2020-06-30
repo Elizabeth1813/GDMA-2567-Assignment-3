@@ -54,4 +54,8 @@
 	display:table;
 	clear: both;
 }
-
+.img-responsive{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
